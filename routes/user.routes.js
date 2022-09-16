@@ -7,7 +7,7 @@ const {
   disableUserAccount,
   loginUser,
   getUserById,
-} = require("../controllers/users.controller");
+} = require("../controllers/user.controller");
 
 // Middlewares
 const {
@@ -20,7 +20,7 @@ const {
   updateUserValidations,
   loginUserValidations,
   validateResult,
-} = require("../middlewares/validators.middleware");
+} = require("../middlewares/validations.middleware");
 
 const router = express.Router();
 

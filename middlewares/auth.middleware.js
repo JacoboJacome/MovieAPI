@@ -4,7 +4,6 @@ const { promisify } = require("util");
 
 // Models
 const { User } = require("../models/user.model");
-const { Product } = require("../models/product.model");
 
 // Utils
 const { catchAsync } = require("../utils/catchAsync");
